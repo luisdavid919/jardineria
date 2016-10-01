@@ -6,6 +6,20 @@
 
 /* Global Styles */
 
+#titulo
+{font-family: 'Inconsolata', monospace;
+color:orange;}
+
+#tema
+{
+font-family: 'Kaushan Script', cursive;
+font-size:24px;
+}
+
+#cuerpo{
+    background-color: #335156 !important;
+}
+
 html,
 body {
     height: 100%;
