@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title id="titulo">Bienvenido Jardinería Acuática</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,16 +20,16 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Muli|Gloria+Hallelujah|Inconsolata|Lato:900i" rel="stylesheet">
+    
+    <link href="icofont/css/icofont.css" rel="stylesheet" type="text/css">
+
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 
 </head>
-
-<body>
+<body id="cuerpo">
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -42,75 +42,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+                <a id="tema" class="navbar-brand" href="index.html">
+                <i class="fa fa-pagelines  fa-spin fa-2x fa-fw" aria-hidden="true"></i>&nbsp&nbsp&nbsp</i>Jardinería Acuática</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="services.html">Galería</a>
                     </li>
+
                     <li>
-                        <a href="services.html">Services</a>
+                        <a href="about.html">Servicios</a>
                     </li>
-                    <li class="active">
-                        <a href="contact.html">Contact</a>
+
+                    <li>
+                        <a href="contact.html">Contacto</a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="blog-home-1.html">Blog Home 1</a>
-                            </li>
-                            <li>
-                                <a href="blog-home-2.html">Blog Home 2</a>
-                            </li>
-                            <li>
-                                <a href="blog-post.html">Blog Post</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="full-width.html">Full Width Page</a>
-                            </li>
-                            <li>
-                                <a href="sidebar.html">Sidebar Page</a>
-                            </li>
-                            <li>
-                                <a href="faq.html">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="404.html">404</a>
-                            </li>
-                            <li>
-                                <a href="pricing.html">Pricing Table</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -120,41 +68,31 @@
     <!-- Page Content -->
     <div class="container">
 
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Contact
-                    <small>Subheading</small>
-                </h1>
-                <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li class="active">Contact</li>
-                </ol>
-            </div>
-        </div>
-        <!-- /.row -->
+        <hr>
 
         <!-- Content Row -->
         <div class="row">
             <!-- Map Column -->
-            <div class="col-md-8">
+            <div class="col-xs-12 col-sm-6 col-lg-8" id="google-maps">
                 <!-- Embedded Google Map -->
-                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2smx!4v1475700623731!6m8!1m7!1soos6TQ_C9B5hv_LfQVXHUw!2m2!1d18.91439788334668!2d-99.22353148081176!3f289.75684570706113!4f-11.744741637380272!5f0.7820865974627469" width="750" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="col-xs-6 col-lg-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.5945690300649!2d-99.22408537082501!3d18.914643367887518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cddfa89b7a781f%3A0x92eeff84742d8580!2sCalle+Galeana+22%2C+Acapantzingo%2C+62440+Cuernavaca%2C+Mor.%2C+Mexico!5e0!3m2!1sen!2smx!4v1475700955348" width="450" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <!-- Contact Details Column -->
-            <div class="col-md-4">
-                <h3>Contact Details</h3>
+            <div class="col-xs-6 col-lg-4" id="tema" style="color: white">
+                <h3>Detalles de Contacto</h3>
                 <p>
-                    3481 Melrose Place<br>Beverly Hills, CA 90210<br>
+                    Calle Galeana<br>Ejido de Acapantzingo<br>
                 </p>
                 <p><i class="fa fa-phone"></i> 
-                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
+                    <abbr title="Phone">Telefono</abbr>: (123) 456-7890</p>
                 <p><i class="fa fa-envelope-o"></i> 
-                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a>
+                    <abbr title="Email" style="color:green">Email</abbr>: <a href="mailto:name@example.com">jardineriacuatica@hotmail.com</a>
                 </p>
                 <p><i class="fa fa-clock-o"></i> 
-                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+                    <abbr title="Hours">Horario</abbr>: Abierto todos los días: 9:00 AM a 8:00 PM</p>
                 <ul class="list-unstyled list-inline list-social-icons">
                     <li>
                         <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
@@ -176,37 +114,37 @@
         <!-- Contact Form -->
         <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
         <div class="row">
-            <div class="col-md-8">
-                <h3>Send us a Message</h3>
+            <div class="col-xs-12 col-sm-6 col-lg-8">
+                <h3>Envíanos un Mensaje, nos pondremos en contacto contigo</h3>
                 <form name="sentMessage" id="contactForm" novalidate>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Full Name:</label>
+                            <label>Nombre Completo:</label>
                             <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Phone Number:</label>
+                            <label>Teléfono:</label>
                             <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Email Address:</label>
+                            <label>Correo Electrónico:</label>
                             <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Message:</label>
+                            <label>Mensaje:</label>
                             <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
                         </div>
                     </div>
                     <div id="success"></div>
                     <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
             </div>
 
@@ -219,11 +157,10 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p id="parrafo" style="color:white; text-align:center">Derechos Reservados &reg; Jardinería Acuática, 2016</p>
                 </div>
             </div>
         </footer>
-
     </div>
     <!-- /.container -->
 
@@ -237,6 +174,32 @@
     <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+
+    <script>
+(function ($) {
+  $(document).ready(function(){
+
+    // hide .navbar first
+    //$("#navbar").hide();
+
+    // fade in .navbar
+    $(function () {
+        $(window).scroll(function () {
+
+                 // set distance user needs to scroll before we start fadeIn
+            if ($(this).scrollTop() < 50) {
+                $('#navbar').fadeIn();
+            } else {
+                $('#navbar').fadeOut();
+            }
+        });
+    });
+
+});
+  }(jQuery));
+</script>
+    
+   <script async src='https://pepper.swat.io/embed.js?eyJwb3NpdGlvbiI6InJpZ2h0IiwiY29sb3IiOiJCOEU5ODYiLCJjdXN0b21Db2xvciI6ZmFsc2UsImljb24iOiJwaG9uZSIsInByb25vdW4iOiJ1cyIsImxhbmd1YWdlIjoiZXMiLCJicmFuZGVkIjpmYWxzZSwiaW50cm9UZXh0IjpudWxsLCJjaGFubmVscyI6W1siZmFjZWJvb2siLCJqYXJkaW5lcmlhY3VhdGljYSIsInNvY2lhbCJdLFsicGhvbmUiLCIrNTIwMTc3NzI0MjY5NjgiLCJjbGFzc2ljIl1dfQ=='></script>
 
 </body>
 
