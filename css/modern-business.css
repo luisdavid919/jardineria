@@ -18,6 +18,10 @@
     }
 
 
+#centrado
+{
+    text-align:center !important;
+}
 
 #titulo
 {font-family: 'Inconsolata', monospace;
