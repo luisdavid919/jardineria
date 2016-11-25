@@ -124,3 +124,9 @@ footer {
         height: 70%;
     }
 }
+
+@media (max-width: 767px){
+  body {
+    padding: 0 !important;
+        }
+}
